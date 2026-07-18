@@ -1,17 +1,21 @@
 # Design Document: log_parser_analyzer
 
 ## Overview
-Minimal log parser and analyzer in Go.
+# Log Parser Analyzer
+========================
+
+### Description
+
+A minimal command-line log parser and analyzer written in Go. This tool is designed to parse log files, extract relevant information, a
 
 ## Architecture
-- `cmd/log_parser_analyzer/main.go` - CLI entry point
-- `pkg/analyseur/analytics.go` - Log analysis engine
+The project follows a modular architecture for maintainability and extensibility.
 
-## Choix techniques
-- Langage: Go (performance, simplicité CLI)
-- Approche: Streaming parsing
+## Technical Choices
+- Language: go
+- Approach: Direct implementation with focus on correctness and performance
 
-## Améliorations futures
-- Formats de logs supplémentaires
-- Métriques et alertes
-- Interface web
+## Future Improvements
+- Performance optimization
+- Additional test coverage
+- Enhanced documentation

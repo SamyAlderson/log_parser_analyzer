@@ -1,12 +1,14 @@
-__pycache__/
-*.pyc
-.pytest_cache/
-.env
-*.egg-info/
-dist/
-build/
-.venv/
+# .gitignore
+
+# ignore node_modules
 node_modules/
-target/
-bin/
-obj/
+
+# ignore go build files
+*.go~
+
+# ignore go fmt files
+*.fmt
+
+# ignore go build and test files
+*_test.go
+*_example.go

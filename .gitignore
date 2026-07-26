@@ -1,14 +1,25 @@
-# .gitignore
+# ignore .env files
+.env
 
 # ignore node_modules
 node_modules/
 
-# ignore go build files
-*.go~
+# ignore vendor files
+vendor/
 
-# ignore go fmt files
-*.fmt
+# ignore IDE temp files
+.idea/
+.vscode/
 
-# ignore go build and test files
-*_test.go
-*_example.go
+# ignore build artifacts
+build/
+dist/
+
+# ignore logs
+logs/
+
+# ignore docker containers
+docker/
+
+# ignore coverage reports
+coverage/

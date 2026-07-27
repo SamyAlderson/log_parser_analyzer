@@ -1,25 +1,22 @@
-# ignore .env files
-.env
+# .gitignore
 
 # ignore node_modules
 node_modules/
 
-# ignore vendor files
-vendor/
+# ignore coverage data
+coverage/
 
-# ignore IDE temp files
+# ignore go build files
+*.go~
+
+# ignore IDE config
 .idea/
+
+# ignore vscode config
 .vscode/
 
-# ignore build artifacts
-build/
-dist/
+# ignore docker build files
+docker-compose.yml
 
-# ignore logs
-logs/
-
-# ignore docker containers
-docker/
-
-# ignore coverage reports
-coverage/
+# ignore docker logs
+docker-compose.log

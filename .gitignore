@@ -1,22 +1,27 @@
 # .gitignore
-
-# ignore node_modules
+# ignore gofmt cache
+.gofmt.cache
+# ignore go files
+*.go
+# ignore vendor directory
+vendor/
+# ignore node_modules directory
 node_modules/
-
-# ignore coverage data
-coverage/
-
-# ignore go build files
-*.go~
-
-# ignore IDE config
-.idea/
-
-# ignore vscode config
-.vscode/
-
-# ignore docker build files
-docker-compose.yml
-
+# ignore pycache directory
+__pycache__/
+# ignore pycache directory
+*.pyc
+# ignore coverage directory
+.coverage
+# ignore logs directory
+logs/
+# ignore env file
+.env
+# ignore docker-compose files
+docker-compose*
 # ignore docker logs
-docker-compose.log
+docker/logs/
+# ignore travis logs
+.travis/
+# ignore circleci logs
+.circleci/
